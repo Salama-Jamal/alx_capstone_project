@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link  href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e47b0c1a21.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/My-logo.png" calass="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Engineer</p>
+                <h1>Hi, I'm <span>Jamal</span><br>Salama From Morocco</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- -------About------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Aboue Me</h1>
+                    <p>I’m a passionate and results-driven full-stack developer with <strong>1+ years of experience</strong> in creating robust web applications. My journey began with a fascination for both front-end and back-end technologies, and I’ve honed my skills to become proficient in the entire stack.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Introduction to SWE</span><br>Web app Development</li>
+                        <li><span>full-stack Engineer</span><br>start with the front-end, move to the back-end, then connect the two</li>
+                        <li><span>ios Developer</span><br>Swift and SwiftUI to build iOS applications</il>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span>2024-Current</span><br>---</li>
+                        <li><span>2023-2024</span><br>4month</li>
+                        <li><span>2024</span><br>---</li>
+                        <li><span>2024</span><br>---</il>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>2024</span><br>Codecademy</li>
+                        <li><span>2024</span><br>ALX</li>
+                        <li><span>2024</span><br>Codecademy</li>
+                        <li><span>2024</span><br>Codecademy</il>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------Services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> Crafting visually appealing and user-friendly websites that resonate with your brand identity. From layout to color schemes, your website will be a digital masterpiece.
+                    <script src="https://kit.fontawesome.com/e47b0c1a21.js" crossorigin="anonymous"></script>
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p> Focusing on the user experience (UX) and user interface (UI) to create intuitive, efficient, and delightful interactions. This involves wireframing, prototyping, and ensuring seamless navigation.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Whether it’s for mobile or desktop, app design is about translating functionality into an aesthetically pleasing interface. You’ll create engaging experiences for users across different platforms.Fitness Tracker</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images\work-1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you the talented people around the world Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Fitness Tracker <br></h3>
+                    <p>are excellent companions for monitoring your health and activity levels. They can help you stay motivated, track your steps, monitor heart rate, and even analyze your sleep patterns.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you the talented people around the world Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.jpg">
+                <div class="layer">
+                    <h3>Task Manager Application</h3>
+                    <p> to-do Cosmic offers a versatile platform for both task management and project management. It allows you to organize personal to-do lists, complex projects, and everything in between.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="colnact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:mybusineesslife@gmail.com" class="M-P">mybusineesslife@gmail.com</a></p>
+                <p><i class="fa-solid fa-square-phone" ></i><a href="tel=+212636035661" class="M-P">(212)636-035 661</a></p>
+                <div class="social-icons">
+                    <a href="https://www.behance.net/jamal-salama" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                    <a href="https://twitter.com/j_amal_S_alama" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/majestic_eifordruis/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://www.linkedin.com/in/jamal-salama-465521298/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Salama-Jamal" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+
+                </div>
+                <a href="document/My-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="colnact-right" id="myform">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Jamal. Made with <i class="fa-solid fa-heart"></i> Jamal Salama</p>
+    </div>
+</div>
+<script>
+
+  
+const scriptURL = "https://script.google.com/macros/s/AKfycbx7CG920Gfmw4zgocu5tLN2D8jB__Gj7sbA0_aEElNQqsrMDq-yWB-L0cZV1Sa-Ggmgrg/exec"
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        } ,5000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+
+</script>
+
+
+
+</body>
+</html>
