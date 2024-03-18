@@ -28,9 +28,9 @@ Testimonials: Include recommendations or testimonials from clients, colleagues, 
 Technologies Used:<br>
 The alx_capstone_project leverages the following technologies, frameworks, and languages:<br>
 
-HTML
-CSS
-JavaScript
+HTML<br>
+CSS<br>
+JavaScript<br>
 <br>
 Screenshots or Demo:<br>
 ![alt text](src/home.jpg)
